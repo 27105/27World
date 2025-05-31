@@ -510,6 +510,7 @@ class User {
               say: sanitize(text,{allowedTags: []})
           });
       }
+	  // this needs a code for the webhook to work  
   }
 
     command(data) {
